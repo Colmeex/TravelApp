@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.paginado2{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.btnPaginado{
+    font-weight: 900;
+    font-size: 8pt;
+    padding: 0rem;
+    margin: 0rem;
+    color: rgb(233, 233, 233);
+    
+    border: 0.1rem solid rgba(65, 65, 65, 0.459);
+    border-radius: 0.0rem;
+    height: 1.85rem;
+    width: 1.95rem;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(8, 21, 34, 0.911);
+}
+
+.btnPaginado:hover {
+    font-size: 12pt;
+    padding: 0.2rem;
+    /* margin: 0.2rem; */
+    background-color: rgb(65, 65 ,65) ;
+    border: 1px solid rgba(244, 253, 118, 0.733);
+
+    color: #ffffff;
+    scale: 105%;
+    text-decoration: none;
+}

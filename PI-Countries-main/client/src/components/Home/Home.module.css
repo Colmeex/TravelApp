@@ -1,0 +1,117 @@
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.fondo{
+    background-color: rgb(61, 61, 61);
+    background-image: url("../Multimedia/mapa5.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-attachment: fixed;
+    /* background-color: rgb(14, 3, 12); */
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+
+.cards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    align-items: left;
+    
+}
+
+
+.paginado {
+    color: rgba(226, 125, 43, 0); 
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+
+.btn{
+    color:aliceblue;
+    background-color:rgba(253, 254, 255, 0.205) ;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    cursor:pointer;
+    transition: all 200ms;
+    margin: 1rem;
+    border: 1px solid rgba(244, 253, 118, 0)
+}
+
+.btn:hover{
+    opacity: 0.75;
+    border: 1px solid rgb(244, 253, 118, 0.733);
+    /* box-shadow: ; */
+}
+
+
+
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.parrafo{
+    color: white;
+}
+
+.input{
+    color: white;
+    width: 20%;
+    background-color: rgba(217, 224, 210, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    outline: none;
+    font-size: 10pt;
+    margin: 0.5rem;
+    transition:200ms; 
+}
+
+.input:hover{
+    color: white;
+    background-color: rgba(156, 139, 39, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );  
+}
+
+.input:focus{
+    color: white;
+    background-color: rgb(81, 82, 81);
+    border: 1.5px solid rgb(133, 13, 231);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );  
+}
+
+.input option{
+    color: white;
+    background-color: rgba(217, 224, 210, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.footer{
+    
+    padding: 1em;
+    text-align: center;
+    margin-top: auto;
+}
+
+.botones{
+    
+    margin: auto;
+}

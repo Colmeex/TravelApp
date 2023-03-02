@@ -1,0 +1,121 @@
+
+.fondo{
+    
+        background-color: rgb(61, 61, 61);
+        background-image: url("../Multimedia/nocturno.jpg");
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-attachment: fixed;
+        /* background-color: rgb(14, 3, 12); */
+        min-height: 100vh;
+        min-width: 100vh;
+        
+    
+}
+
+html{
+    color: aliceblue;
+    background-color: brown;
+}
+
+h1{
+    font-size: 46pt;
+    padding-top: 5rem;
+}
+.input{
+    color: white;
+    width: 12rem;
+    background-color: rgba(43, 44, 42, 0.575);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    outline: none;
+    font-size: 10pt;
+    margin: 0.5rem;
+    transition:200ms; 
+}
+
+.input option{
+    color: black;
+    background-color: rgba(217, 224, 210, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.p{
+    color: red;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 10pt;
+    align-items: left;
+    align-content: left;
+    /* text-align: left; */
+}
+
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    gap: 3px;
+} 
+
+.btn{
+    color:aliceblue;
+    background-color:rgba(43, 44, 42, 0.575) ;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    cursor:pointer;
+    transition: all 200ms;
+    margin: 0.1rem;
+    border: 1px solid rgba(244, 253, 118, 0.918)
+}
+
+.btn:hover{
+    /* opacity: 0.75; */
+    border: 1px solid rgba(194, 6, 241, 0.733);
+    /* box-shadow: ; */
+}
+.btn:active{
+    color: rgb(255, 252, 252);
+    /* opacity: 0.75; */
+    border: 1px solid rgb(244, 253, 118, 0.733);
+    /* box-shadow: ; */
+    background-color: rgb(108, 22, 129);
+}
+
+
+.btnVolver{
+    
+        color:aliceblue;
+        background-color:rgba(8, 21, 34, 0.623) ;
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+        cursor:pointer;
+        transition: all 200ms;
+        margin-top: 8rem;
+        
+        border: 1px solid rgba(255, 255, 255, 0.432)
+        
+    
+}
+.btnVolver:hover{
+    
+        color:rgb(12, 12, 12);
+        background-color: aliceblue ;
+}
+.btnVolver:active{
+    
+        color:rgb(12 12 12);
+        background-color: rgb(244, 253, 118, 0.733) ;
+
+
+}
+

@@ -1,0 +1,153 @@
+.fondo{
+    background-color: rgb(61, 61, 61);
+    background-image: url("../Multimedia/mapa1.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-attachment: fixed;
+    /* background-color: rgb(14, 3, 12); */
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+
+h1{
+margin: auto;
+font-size: 20pt;
+}
+
+.imgDetail{ 
+    margin: 0.3rem;
+    margin-top: 0.1rem;
+    border-radius: 1rem;
+    width: 60%;
+    height: 214px;
+    object-fit: cover;
+    
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: white;
+    font-weight: 800;
+    font-size: 24pt;
+    /* margin: 0.3rem; */
+    margin-bottom: 0;
+}
+.id{
+margin-bottom: 1rem;
+}
+
+.continente{
+    font-weight: 400;
+    /* margin-bottom: 1rem; */
+}
+
+.titulo{
+    display: flex;
+    /* align-items: center;
+    align-content: center; */
+    text-align: left;
+    justify-content: center;
+    margin: 0.3rem;
+    margin-bottom: 0.1rem;
+    font-size: 15pt;
+}
+.titulo h5{
+    font-weight: 400;
+    font-style: italic;
+    margin: 0.3rem;
+    font-size: 12pt;
+}
+
+.btn{
+    color:aliceblue;
+    background-color:rgba(253, 254, 255, 0.205) ;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    cursor:pointer;
+    transition: all 200ms;
+    margin: 0.3rem;
+    border: 1px solid rgba(244, 253, 118, 0);
+    width: 13%;
+}
+
+.btn:hover{
+    opacity: 0.75;
+    border: 1px solid rgb(244, 253, 118, 0.733);
+    /* box-shadow: ; */
+}
+
+.btnVolver{
+    
+    color:aliceblue;
+    background-color:rgba(253, 254, 255, 0) ;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    cursor:pointer;
+    transition: all 200ms;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    width: 10%;
+}
+.btnVolver:hover{
+
+    color:rgb(12, 12, 12);
+    background-color: aliceblue ;
+}
+.btnVolver:active{
+
+    color:rgb(12 12 12);
+    background-color: rgb(244, 253, 118, 0.733) ;
+
+
+}
+/* .contenedorText h2 h4{
+    text-align: left;
+    
+}
+.contenedorText2 h2 h4{
+    text-align: left;
+    
+} */
+
+.card{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    width: 500px;
+    height: 460px;
+    background-color: rgba(217, 224, 210, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    justify-content: center;
+    transition: 200ms;
+  }
+
+.card2{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    width: 800px;
+    height: 170px;
+    background-color: rgba(217, 224, 210, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    justify-content: center;
+    transition: 200ms;
+  }

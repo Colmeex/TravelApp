@@ -11,3 +11,5 @@
 - Aprender mejores prácticas.
 - Aprender y practicar el workflow de GIT.
 
+## Muestras de la app en video aqui: 
+https://youtu.be/-ADseM1eWnE
